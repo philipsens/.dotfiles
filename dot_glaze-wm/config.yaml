@@ -76,9 +76,9 @@ bar:
       refresh_interval_ms: 1000
     - type: "weather"
       temperature_unit: "celcius"
-      timezone: "EST"
-      latitude: 40.0084
-      longitude: -79.0786
+      timezone: "Europe/Amsterdam"
+      latitude: 51.91782
+      longitude: 4.471850
       label: "{temperature_celsius}°C"
       label_sun: "<attr fg='#fdc300'>☀️</attr> {temperature_celsius}°C"
       label_moon: "<attr fg='#fdc300'>🌙</attr> {temperature_celsius}°C"
