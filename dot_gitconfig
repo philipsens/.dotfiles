@@ -1,0 +1,11 @@
+[gpg]
+	format = ssh
+[user]
+	signingkey = C:\\Users\\sergi\\.ssh\\id_rsa.pub
+	name = Sergi Philipsen
+	email = philipsen.sergi@gmail.com
+[commit]
+	gpgsign = true
+[alias]
+	master = checkout master
+	oeps = commit -a --amend --no-edit
