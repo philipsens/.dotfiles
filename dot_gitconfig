@@ -9,3 +9,13 @@
 [alias]
 	master = checkout master
 	oeps = commit -a --amend --no-edit
+	staash = stash --all
+	force = push --force-with-lease
+[rerere]
+	enabled = true
+[column]
+	ui = auto
+[branch]
+	sort = -committerdate
+[maintenance]
+	repo = C:/Users/sergi/Projects/frankframework/frankframework
