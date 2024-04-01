@@ -7,10 +7,13 @@
 [commit]
 	gpgsign = true
 [alias]
-	master = checkout master
+	master = !git checkout master && git pull
 	oeps = commit -a --amend --no-edit
 	staash = stash --all
 	force = push --force-with-lease
+	s = status
+	c = commit
+	p = push
 [rerere]
 	enabled = true
 [column]
@@ -19,3 +22,7 @@
 	sort = -committerdate
 [maintenance]
 	repo = C:/Users/sergi/Projects/frankframework/frankframework
+[core]
+	protectNTFS = false
+	autocrlf = false
+	eol = lf
