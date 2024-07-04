@@ -13,7 +13,9 @@
 	force = push --force-with-lease
 	s = status
 	c = commit
+	cam = c -am
 	p = push
+	fp = force
 [rerere]
 	enabled = true
 [column]
@@ -24,5 +26,7 @@
 	repo = C:/Users/sergi/Projects/frankframework/frankframework
 [core]
 	protectNTFS = false
-	autocrlf = false
+	autocrlf = input
 	eol = lf
+[credential "https://secure.sittard-geleen.nl"]
+	provider = generic
