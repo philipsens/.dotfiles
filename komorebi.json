@@ -1,29 +1,40 @@
 {
-  "$schema": "https://raw.githubusercontent.com/LGUG2Z/komorebi/v0.1.22/schema.json",
+  "$schema": "https://raw.githubusercontent.com/LGUG2Z/komorebi/v0.1.28/schema.json",
   "app_specific_configuration_path": "$Env:USERPROFILE/applications.yaml",
-  "window_hiding_behaviour": "Cloak",
-  "cross_monitor_move_behaviour": "Insert",
-  "default_workspace_padding": 10,
-  "default_container_padding": 10,
-  "focus_follows_mouse": "Komorebi",
-  "mouse_follows_focus": true,
-  "active_window_border": true,
-  "active_window_border_offset": -1,
-  "active_window_border_width": 1,
-  "active_window_border_colours": {
-    "single": "#fdc300",
-    "stack": "#ffffff",
-    "monocle": "#1e1e1e"
+  "border": true,
+  "border_colours": {
+	"monocle": "#ffffff",
+	"single": "#fdc300",
+	"stack": "#fdc300"
   },
+  "border_implementation": "Windows",
+  "border_width": 1,
+  "cross_monitor_move_behaviour": "Insert",
+  "default_container_padding": 10,
+  "default_workspace_padding": 10,
   "monitors": [
     {
       "workspaces": [
-        { "name": "I", "layout": "BSP" },
-        { "name": "II", "layout": "VerticalStack" },
-        { "name": "III", "layout": "HorizontalStack" },
-        { "name": "IV", "layout": "UltrawideVerticalStack" },
-        { "name": "V", "layout": "Rows" }
+        { "name": "1", "layout": "BSP" },
+        { "name": "2", "layout": "BSP" },
+        { "name": "3", "layout": "BSP" },
+        { "name": "4", "layout": "BSP" },
+        { "name": "5", "layout": "BSP" },	
+        { "name": "6", "layout": "BSP" },
+        { "name": "7", "layout": "BSP" },
+        { "name": "8", "layout": "BSP" },
+        { "name": "9", "layout": "BSP" },
+        { "name": "0", "layout": "BSP" }
       ]
     }
-  ]
+  ],
+  "stackbar": {
+	"tabs": {
+		"background": "#1e1e1e",
+		"focused_text": "#fdc300",
+		"unfocused_text": "#ffffff"
+	}
+  },
+  "window_container_behaviour": "Append",
+  "window_hiding_behaviour": "Hide"
 }

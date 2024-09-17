@@ -1,6 +1,6 @@
 general:
   # Whether to automatically focus windows underneath the cursor.
-  focus_follows_cursor: true
+  focus_follows_cursor: false
 
   # Whether to jump the cursor between windows focused by the WM.
   cursor_follows_focus: true
@@ -10,7 +10,7 @@ general:
   toggle_workspace_on_refocus: true
 
   # Whether to show floating windows as always on top.
-  show_floating_on_top: false
+  show_floating_on_top: true
 
   # Amount to move floating windows by (eg. when using `alt+<hjkl>` on a floating window)
   floating_window_move_amount: "5%"
@@ -146,6 +146,7 @@ workspaces:
   - name: "7"
   - name: "8"
   - name: "9"
+  - name: "0"
 
 window_rules:
   # Task Manager requires admin privileges to manage and should be ignored unless running
@@ -285,6 +286,8 @@ keybindings:
     binding: "Alt+8"
   - command: "focus workspace 9"
     binding: "Alt+9"
+  - command: "focus workspace 0"
+    binding: "Alt+0"
 
   # Move focused workspace to a monitor in a given direction.
   - command: "move workspace left"
@@ -315,3 +318,5 @@ keybindings:
     binding: "Alt+Shift+8"
   - commands: ["move to workspace 9", "focus workspace 9"]
     bindings: ["Alt+Shift+9"]
+  - commands: ["move to workspace 0", "focus workspace 0"]
+    bindings: ["Alt+Shift+0"]
