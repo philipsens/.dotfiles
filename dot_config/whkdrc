@@ -5,7 +5,7 @@
 alt + o                 : taskkill /f /im whkd.exe; Start-Process whkd -WindowStyle hidden # if shell is pwsh / powershell
 alt + shift + o         : komorebic reload-configuration
 
-alt + q                 : komorebic close
+alt + shift + q                 : komorebic close
 alt + m                 : komorebic minimize
 
 # App shortcuts - these require shell to be pwsh / powershell
@@ -45,8 +45,8 @@ alt + shift + oem_plus  : komorebic resize-axis vertical increase
 alt + shift + oem_minus : komorebic resize-axis vertical decrease
 
 # Manipulate windows
-alt + t                 : komorebic toggle-float
-alt + shift + f         : komorebic toggle-monocle
+alt + space             : komorebic toggle-float
+alt + f                 : komorebic toggle-monocle
 
 # Window manager options
 alt + shift + r         : komorebic retile
