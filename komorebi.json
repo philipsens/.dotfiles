@@ -28,6 +28,7 @@
       ]
     }
   ],
+  "mouse_follows_focus": false,
   "stackbar": {
 	"tabs": {
 		"background": "#1e1e1e",
