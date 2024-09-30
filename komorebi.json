@@ -36,6 +36,5 @@
 		"unfocused_text": "#ffffff"
 	}
   },
-  "window_container_behaviour": "Create",
-  "window_hiding_behaviour": "Hide"
+  "window_container_behaviour": "Create"
 }
